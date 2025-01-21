@@ -31,7 +31,7 @@ Config = {
     AllowInWater = false, -- If turned off, opening the menu and playing an emote will not be possible while swimming
 
     -- Ragdoll options
-    RagdollEnabled = false,     -- You can enable or disable the Ragdoll keybinding here.
+    RagdollEnabled = true,     -- You can enable or disable the Ragdoll keybinding here.
     RagdollKeybind = 'u', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
     -- You can enable or disable Ragdoll as Toggle here. Only works if RagdollEnabled is set to true.
     RagdollAsToggle = true,
@@ -46,12 +46,12 @@ Config = {
     AnimalEmotesEnabled = true, -- You can disable the Animal Emotes here.
 
     -- Hands Up Options
-    HandsupEnabled = false, -- You can disable the handsup here / change the keybind. It is currently set to Y
-    HandsupKeybind = 'Y', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
-    HandsupKeybindEnabled = false,
+    HandsupEnabled = true, -- You can disable the handsup here / change the keybind. It is currently set to Y
+    HandsupKeybind = 'X', -- Get the button string here https://docs.fivem.net/docs/game-references/input-mapper-parameter-ids/keyboard/
+    HandsupKeybindEnabled = true,
     HandsupKeybindInCarEnabled = false,
     PersistentEmoteAfterHandsup = true, -- If true, you will play the emote you were playing previously after you stop handsup.
-    HoldToHandsUp = false, -- Hands-up action occurs only while holding the button down
+    HoldToHandsUp = true, -- Hands-up action occurs only while holding the button down
 
     -- Pointing Options
     PointingEnabled = true, -- You can disable the finger pointing here / change the keybind. It is currently set to B
